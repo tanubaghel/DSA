@@ -6,6 +6,7 @@ public class ArrayListFun {
 		// creating ArrayList(AL) of name arr
 		
 		ArrayList<Integer> arr1=new ArrayList<>();
+		arr1[index] Syntax will not work here
 
 		//1. add(value) - This will keep on adding value in last of array list.
 			arr1.add(2);
@@ -15,7 +16,8 @@ public class ArrayListFun {
 			arr1.add(7);
 			arr1.add(5);
 			System.out.println(arr1); //[2, 7, 3, 1, 7, 5]
-		
+		//1.2 Contains
+		arr1.contains(7);----it will return true or false;
 			
 		//2. size() - return no. of elements added in AL
 			System.out.println(arr1.size());// 6
